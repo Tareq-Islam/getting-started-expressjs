@@ -1,0 +1,37 @@
+{
+  "name": "getting-started-expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tareq-Islam/getting-started-expressjs.git"
+  },
+  "keywords": [
+    "expressjs",
+    "mongo"
+  ],
+  "author": "Tareq Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tareq-Islam/getting-started-expressjs/issues"
+  },
+  "homepage": "https://github.com/Tareq-Islam/getting-started-expressjs#readme",
+  "dependencies": {
+    "bcrypt": "latest",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.15.5",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.3",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "serve-favicon": "~2.4.5"
+  }
+}
